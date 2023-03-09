@@ -1,0 +1,3 @@
+for(Object oref : ar) {
+			System.out.println(oref);
+		}

@@ -1,0 +1,11 @@
+javadoc = documentação da classe / biblioteca
+Project => generated javadoc => arquivo index.html
+
+arquivo JAR serve para passar uma biblioteca 
+Export => JARfile => colocar o jar file dentro do novo projeto => build path => e importa na classe que vai usar
+
+pacote é um conjunto de classes 
+biblioteca é um conjunto de classe e pacotes que podem ser usados em outros códigos
+
+jar executavel 
+Export => JARfile => na configuração do arquivo jar indique a classe main/principal => colocar o jar file dentro do novo projeto => build path => e importa na classe que vai usar

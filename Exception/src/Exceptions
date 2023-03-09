@@ -1,0 +1,55 @@
+exception = é um erro
+a execução muda
+
+quando é encontrada uma exception a execução do programa muda , ele sai do programa quando encontra uma exception sem tratamento
+
+rastro da pilha de execução
+java.lang.ArithmeticException: / by zero
+	at Fluxo.metodo2(Fluxo.java:20)
+	at Fluxo.metodo1(Fluxo.java:12)
+	at Fluxo.main(Fluxo.java:5)
+	
+try = tenta executar esse código
+catch = pegar a exceção, indentificar qual exceção pode acontecer
+
+try {
+			int a = 10/0; 
+			} catch(ArithmeticException ex) {
+			 //se acontecer um erro execute o código aqui	
+			}
+			
+variável.getMensage() = fala o pq do erro
+variável.printStackTrace() = imprime a pilha de execução 
+
+
+como jogar uma exceção{
+	ArithmeticException exc = new ArithmeticException(pode receber uma string); = exceção do tipo arthmetic
+	throw = joga a exceção
+	throw exc; = joga a exception no código
+	ou
+	throw new ArithmeticException();
+}	
+como criar uma exception propia{
+	public class MinhaExecao extends RuntimeException
+	para ser uma exception a classe tem que herdar a RuntimeException, que é a classe mãe das exceptions
+}
+
+erro = é uma classe de quando é um erro , mas do lado do desenvolvedor da jvm , é diferente de uma exception, um exemplo de erro é quando falta memoria
+
+na hora de rodar as duas são iguais
+checked = Exception = são verificadas
+unchecked = runtimeException = não são verificados pelo compilador
+
+Quando usa huntimeException = usa a exceção como quiser, mas quando usa Exception não
+Quando usa Exception precisa deixar explicito na asinatura do método que está usando essa exceção
+
+RuntimeException = unchecked (não checada pelo compilador)
+Exception = checked (checada pelo compilador)(te obriga a colocar um throws ou um try catch)
+
+try{
+}catch(Exception){}
+capitura qualquer exceção , porque todas herdam Exception
+
+finally {/*Sempre sera executado com ou sem erro*/
+
+

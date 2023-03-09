@@ -1,0 +1,11 @@
+Encapsulamento = public, private ,protected
+públic pode ser modificado , private so dentro da própia classe pode ser modificado e nao pode ser auterado só por métodos , protected classes filhas podem modificar
+private não serve para classes
+
+Clase =  é uma descrição de um conjunto de objetos que compartilham os mesmos atributos, operações, relacionamentos e semântica.
+atributos = Um atributo é uma variável que pertence a um objeto. Os dados de um objeto são armazenados nos seus atributos.
+métodos = Os métodos são procedimentos ou funções que realizam as ações próprias do objeto. 
+objeto = Objetos são instâncias de classes, que determinam qual informação um objeto contém e como ele pode manipulá-la.
+encapsulamento = Se trata do fato de esconder as propriedades, criando uma espécie de caixa preta.
+Sempre com os métodos privados ligadas a métodos especiais chamados getters e setters, que irão retornar e setar o valor da propriedade, respectivamente. O encapsulamento evita o acesso direto a propriedade do objeto, adicionando uma outra camada de segurança à aplicação.
+private Cliente titular;/*composição de objeto*//*referencia*//*relacionamento entre classes*/

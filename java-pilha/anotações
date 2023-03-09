@@ -1,0 +1,11 @@
+public = publico
+private = privado 
+void = não retorna nada
+this = desse dessa
+static = pertençe a classe
+extends = extende de alguma classe
+Override = sobre escreve algo
+interface = Como se fosse um contrato quem assina precissa implementar todods os métodos
+método abstract = método sem corpo, podendo ser rescrito em classe que o herdam
+classe abstract = não pode ser instanciada
+enums = valores fixos

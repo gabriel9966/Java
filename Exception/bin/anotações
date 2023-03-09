@@ -1,0 +1,54 @@
+public = publico
+private = privado 
+void = não retorna nada
+this = desse dessa
+static = pertençe a classe
+extends = extende de alguma classe
+Override = sobre escreve algo
+interface = Como se fosse um contrato quem assina precissa implementar todods os métodos
+método abstract = método sem corpo, sendo obrigado ser rescrito em classe que o herdam
+classe abstract = não pode ser instanciada
+enums = valores fixos
+método static = não precisa de referência, o metodo é privado 
+Conta conta = new Conta(); tipo da referência e tipo do objeto
+protected = é visível para as classes filhas
+heap = memória de objetos
+super = quando vc está subindo a hierarquia e usando o construtor da classe mãe
+
+como criar uma axceção{
+	ArithmeticException exc = new ArithmeticException(); = exceção do tipo arthmetic
+	
+System.lineSeparator() = pula linha
+	
+	
+Composição de objetos é quando ligamos uma clase a outra mas nao heerdam 
+
+navigator é umprojectExplorer mais completo
+
+modificadores = public,protected,package private,private
+package private = quando não defini o atributo, ele por padrão é package private, só é visível dentro do pacote e da classe, mas não a classe filha
+protected = acessavel pelo pacote e pelas subclasses
+private = só na classe
+private (visível apenas na classe)
+<<package private>> (visível na classe E em qualquer outro membro do mesmo pacote, podendo ser chamado de default)
+protected (visível na classe E em qualquer outro membro do mesmo pacote E para qualquer filho)
+public (visível em qualquer pacote)
+
+
+System.out.println
+System{
+classe
+Faz parte do pacote principal java.lang porque não precisa ser importado
+public}
+out{ 
+é um atributo, não é um método porque não usa ()
+public
+é uma referencia
+Static}
+println{ 
+é um método usa ()
+é publico
+não estático
+sobre carga = varias versões do método
+não joga exceções do tipo checked
+}
